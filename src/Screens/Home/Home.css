@@ -1,0 +1,70 @@
+.home_main_container {
+  display: flex;
+  padding: 100px;
+  gap: 30px;
+}
+.home_about_container {
+  flex-grow: 1;
+  padding: 20px 0;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 60.67%;
+}
+.about_me_h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+  color: var(--text-light);
+  /* color: #313131; */
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+.home_about_container p {
+  box-sizing: border-box;
+  display: block;
+  color: var(--text-light);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.sub_headings {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+.sub_headings ul {
+  display: block;
+  box-sizing: border-box;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.sub_headings_ul_li {
+  display: list-item;
+  margin-left: 30px;
+  text-align: -webkit-match-parent;
+}
+.home_second_container {
+  display: flex;
+  gap: 150px;
+  padding: 120px;
+  padding-left: 10%;
+}
+.home_second_container h1 {
+  font-size: 2.25rem;
+}
+.home_second_container_list {
+  padding: 20px 50px;
+}

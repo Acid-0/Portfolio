@@ -1,0 +1,9 @@
+.projectContainer {
+  position: relative;
+}
+.projectsHeading {
+  /* position: absolute; */
+  /* top: 100px; */
+  text-align: center;
+  background-color: antiquewhite;
+}

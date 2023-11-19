@@ -1,0 +1,13 @@
+.alert {
+  /* position: relative; */
+  margin-top: 1rem;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert_note {
+  color: #12537e;
+  background-color: #f6fbfe;
+  border-color: #209cee;
+}

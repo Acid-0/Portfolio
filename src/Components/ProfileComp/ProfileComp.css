@@ -1,0 +1,63 @@
+.profile_container {
+  width: 30%;
+  padding: 20px 0;
+  text-align: center;
+}
+.profile_container image {
+  height: 200px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+.profile_container h1 {
+  padding: 5px;
+  font-size: 1.75em;
+  font-weight: 300;
+  color: var(--text-light);
+  margin: 20px 0 10px;
+}
+.profile_container h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 0 10px;
+}
+.network_icons {
+  margin-top: 30px;
+}
+ul.network_icons {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.network_icons li {
+  margin-right: 15px;
+}
+a {
+  color: #2962ff;
+  text-decoration: none;
+  transition: color 0.6s ease;
+  background-color: transparent;
+}
+.big-icon {
+  font-size: 2rem;
+  color: #2962ff;
+}
+.ai {
+  display: inline-block;
+  font-weight: 600;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.network_icons li:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+.network_icons li:last-of-type {
+  margin-right: 0;
+}
