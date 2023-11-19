@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Getting Started with Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a website for the portfolio of a person. It will give you an access control dashboard for the portfolio data and section to dynamically update with time on you portfolio website page.
 
-## Available Scripts
+## Available Information
 
 In the project directory, you can run:
 

@@ -7,7 +7,14 @@ export default function Projects() {
   return (
     <div className="projectContainer paddingTop animate__animated animate__fadeIn">
       <h1 className="projectsHeading">Projects</h1>
-      <ProjectDetails />
+      <div className="alter_bg">
+        <div>
+          <ProjectDetails />
+        </div>
+        <div>
+          <ProjectDetails />
+        </div>
+      </div>
     </div>
   );
 }
